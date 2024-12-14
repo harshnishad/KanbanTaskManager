@@ -1,8 +1,14 @@
 
-
+import {DragDropContext} from 'react-beautiful-dnd'
 const Boards = () => {
   return (
-    <div>Boards</div>
+    <>
+    <DragDropContext  onDragEnd={(result:any)=>console.log(result)}>
+    <div></div>
+
+    </DragDropContext>
+
+    </>
   )
 }
 
