@@ -1,5 +1,5 @@
 
-import taskImage from "../assets/images/task.jpg";
+//import taskImage from "../assets/images/task.jpg";
 
 import { Columns } from "../type";
 
