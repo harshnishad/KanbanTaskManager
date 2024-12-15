@@ -5,7 +5,7 @@ import { Columns } from "../type";
 
 
 // Yeh ek helper function hai jo default image return karega agar koi image nahi hai
-const getDefaultImage = (image: string | undefined) => image || taskImage;
+//const getDefaultImage = (image: string | undefined) => image || taskImage;
 
 export const Board: Columns = {
   // "Backlog" column, yahan wo tasks hote hain jo plan kiye gaye hain, par abhi kaam par nahi aaye
