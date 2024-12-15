@@ -8,7 +8,7 @@ import AddModal from "../../component/models/AddModal";
 import Task from "../../component/task";
 import { v4 as uuidv4 } from "uuid";
 //import { getRandomColors } from "../../helper/getRandomColors";
-import taskImage from "../../assets/images/task.jpg";
+import taskImage from "../../assets/Images/task.jpg";
 
 const Home = () => {
   const savedBoard = localStorage.getItem("board");
