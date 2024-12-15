@@ -1,9 +1,8 @@
 
 import taskImage from "../assets/images/task.jpg";
-import taskImage2 from "../assets/images/task2.jpg";
-import taskImage3 from "../assets/images/task3.jpg";
+
 import { Columns } from "../type";
-import { getRandomColors } from "../helper/getRandomColors";
+
 
 // Yeh ek helper function hai jo default image return karega agar koi image nahi hai
 const getDefaultImage = (image: string | undefined) => image || taskImage;
