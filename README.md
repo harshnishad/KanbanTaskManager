@@ -52,13 +52,13 @@ A dynamic task management board built with React. This project allows users to o
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/task-management-board.git
+    git clone https://github.com/harshnishad/task-management-board.git
     cd task-management-board
     ```
 
 2. Install the dependencies:
     ```bash
-    npm install
+    yarn add
     ```
 
 3. Start the development server:
